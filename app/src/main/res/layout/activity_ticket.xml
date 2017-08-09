@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joss.booking.TicketActivity"
+    tools:layout_editor_absoluteY="89dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <TextView
+        android:id="@+id/lbl_ticket"
+        android:layout_width="277dp"
+        android:layout_height="39dp"
+        android:text="@string/lbl_ticket"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:layout_marginStart="16dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="11dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_ticket2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_ticket2"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintRight_toLeftOf="@+id/lbl_ticket3"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        android:layout_marginTop="11dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_ticket3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_ticket3"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:layout_marginEnd="85dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="11dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/lbl_ticket4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_ticket4"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:layout_marginStart="58dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_ticket"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/lbl_ticket" />
+
+    <TextView
+        android:id="@+id/lbl_ticket5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_ticket5"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:layout_marginStart="19dp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginTop="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_ticket2"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/lbl_ticket2" />
+
+    <TextView
+        android:id="@+id/lbl_ticket6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_ticket6"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="35dp"
+        app:layout_constraintTop_toBottomOf="@+id/lbl_ticket3"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toRightOf="@+id/lbl_ticket3" />
+
+    <TextView
+        android:id="@+id/lbl_ticket7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_ticket7"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="normal|bold"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/lbl_ticket8"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="51dp"
+        app:layout_constraintLeft_toRightOf="@+id/lbl_ticket8" />
+
+    <TextView
+        android:id="@+id/lbl_ticket8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_ticket8"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/lbl_ticket7"
+        app:layout_constraintRight_toRightOf="@+id/lbl_ticket9"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="22dp"
+        app:layout_constraintLeft_toRightOf="@+id/lbl_ticket9" />
+
+    <TextView
+        android:id="@+id/lbl_ticket9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:text="@string/lbl_ticket9"
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/lbl_ticket8"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="19dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

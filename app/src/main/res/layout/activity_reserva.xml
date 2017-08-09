@@ -1,0 +1,572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <EditText
+        android:id="@+id/comida1"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="283dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bebida2"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="81dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bebida3"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="267dp"
+        android:layout_y="81dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/postre4"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="384dp"
+        android:layout_y="470dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bebida9"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="389dp"
+        android:layout_y="160dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bebida7"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="159dp"
+        android:layout_y="158dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/postre2"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="157dp"
+        android:layout_y="471dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/postre5"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="498dp"
+        android:layout_y="470dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comida2"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="156dp"
+        android:layout_y="281dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bebida10"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="500dp"
+        android:layout_y="158dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comida6"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="356dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bebida4"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="387dp"
+        android:layout_y="80dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comida4"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="383dp"
+        android:layout_y="280dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bebida1"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="54dp"
+        android:layout_y="82dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comida8"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="264dp"
+        android:layout_y="361dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bebida5"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="500dp"
+        android:layout_y="80dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comida7"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="155dp"
+        android:layout_y="359dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/postre3"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="265dp"
+        android:layout_y="471dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comida5"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="496dp"
+        android:layout_y="280dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/postre1"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="51dp"
+        android:layout_y="473dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comida3"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="263dp"
+        android:layout_y="281dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comida9"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="385dp"
+        android:layout_y="361dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bebida6"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="52dp"
+        android:layout_y="156dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/comida10"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="496dp"
+        android:layout_y="359dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/bebida8"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_x="268dp"
+        android:layout_y="160dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/lbl_comida3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="252dp"
+        android:layout_y="257dp"
+        android:text="@string/lbl_comida3"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_bebida10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="495dp"
+        android:layout_y="130dp"
+        android:text="@string/lbl_bebida10"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_comida5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="487dp"
+        android:layout_y="256dp"
+        android:text="@string/lbl_comida5"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_postres2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="150dp"
+        android:layout_y="447dp"
+        android:text="@string/lbl_postres2"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_Comidas"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_x="20dp"
+        android:layout_y="220dp"
+        android:text="@string/lbl_comidas"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_comida9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="368dp"
+        android:layout_y="332dp"
+        android:text="@string/lbl_comida9"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_comida4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="357dp"
+        android:layout_y="256dp"
+        android:text="@string/lbl_comida4"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_bebida2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="151dp"
+        android:layout_y="55dp"
+        android:text="@string/lbl_bebida2"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_postres1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="25dp"
+        android:layout_y="446dp"
+        android:text="@string/lbl_postres1"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_bebida5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="490dp"
+        android:layout_y="54dp"
+        android:text="@string/lbl_bebida5"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_comida6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="26dp"
+        android:layout_y="331dp"
+        android:text="@string/lbl_comida6"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_comida10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="491dp"
+        android:layout_y="331dp"
+        android:text="@string/lbl_comida10"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_comida2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="148dp"
+        android:layout_y="257dp"
+        android:text="@string/lbl_comida2"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_bebida6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="128dp"
+        android:text="@string/lbl_bebida6"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_Postres"
+        android:layout_width="117dp"
+        android:layout_height="wrap_content"
+        android:layout_x="13dp"
+        android:layout_y="407dp"
+        android:text="@string/lbl_Postre"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_comida8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="253dp"
+        android:layout_y="332dp"
+        android:text="@string/lbl_comida8"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_bebida7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="147dp"
+        android:layout_y="130dp"
+        android:text="@string/lbl_bebida7"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_bebida1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="28dp"
+        android:layout_y="55dp"
+        android:text="@string/lbl_bebida3"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_bebida3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="255dp"
+        android:layout_y="55dp"
+        android:text="@string/lbl_bebida1"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_comida1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="24dp"
+        android:layout_y="256dp"
+        android:text="@string/lbl_comida1"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_bebidas"
+        android:layout_width="112dp"
+        android:layout_height="wrap_content"
+        android:layout_x="23dp"
+        android:layout_y="19dp"
+        android:text="@string/lbl_Bebidas"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/lbl_bebida9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="389dp"
+        android:layout_y="131dp"
+        android:text="@string/lbl_bebida9"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_comida7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="141dp"
+        android:layout_y="330dp"
+        android:text="@string/lbl_comida7"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_bebida4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="360dp"
+        android:layout_y="54dp"
+        android:text="@string/lbl_bebida4"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_postres5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="491dp"
+        android:layout_y="445dp"
+        android:text="@string/lbl_postres5"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <Button
+        android:id="@+id/btn_Send"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_x="160dp"
+        android:layout_y="658dp"
+        android:text="@string/btn_Ok" />
+
+    <TextView
+        android:id="@+id/lbl_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="99dp"
+        android:layout_y="587dp"
+        android:text="@string/lbl_orderName"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:id="@+id/txt_orderOwner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="270dp"
+        android:layout_y="579dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/txt_orderOwner"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/lbl_bebida8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="259dp"
+        android:layout_y="130dp"
+        android:text="@string/lbl_bebida8"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_postres3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="265dp"
+        android:layout_y="446dp"
+        android:text="@string/lbl_postres3"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/lbl_postres4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="380dp"
+        android:layout_y="443dp"
+        android:text="@string/lbl_postres4"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        android:textStyle="normal|bold" />
+
+</AbsoluteLayout>
